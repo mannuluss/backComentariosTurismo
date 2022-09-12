@@ -1,0 +1,14 @@
+[
+    {
+        "usuario": "Felipe",
+        "idPublicacion": 3,
+        "estrellas": 2,
+        "comentario": "no es muy bueno, muy aburrido, plan muy malo."
+    },
+    {
+        "usuario": "Horus",
+        "idPublicacion": 4,
+        "estrellas": 5,
+        "comentario": "una excelente guia turistico"
+    }
+]
