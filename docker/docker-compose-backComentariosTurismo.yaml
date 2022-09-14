@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  comentarios_back:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: comentarios_back
+    ports:
+      - 3000:3000
+    networks:
+      - mysql_network
+networks:
+  mysql_network:
+    name: mysql_net
+    driver: bridge
